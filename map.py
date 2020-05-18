@@ -11,7 +11,7 @@ def index_of_danger(ind):
 
 html = """
 %s
-<img src='https://pp.userapi.com/c848536/v848536172/1d2e7c/oFormnh_k2c.jpg'>
+<img src='anyimage'>
 """
 legend_html = '''
                 <div style="position: fixed; 
