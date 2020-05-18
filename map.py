@@ -19,9 +19,9 @@ legend_html = '''
                             border:2px solid grey; z-index:9999; font-size:14px; font-family:Avantgarde;
                             line-height:2;
                             "><b><font size=3>&nbsp; Легенда </b></font><br>
-                              &nbsp; Kaif &nbsp<i class="fa fa-circle fa-1x" style="color:green"></i><br>
-                              &nbsp; Mid &nbsp; <i class="fa fa-circle fa-1x" style="color:orange"></i><br>
-                              &nbsp; Мусора &nbsp; <i class="fa fa-female fa-2x" style="color:red"></i><br>
+                              &nbsp; Well &nbsp<i class="fa fa-circle fa-1x" style="color:green"></i><br>
+                              &nbsp; Semi &nbsp; <i class="fa fa-circle fa-1x" style="color:orange"></i><br>
+                              &nbsp; Danger &nbsp; <i class="fa fa-female fa-2x" style="color:red"></i><br>
                 </div>
                 '''
 
