@@ -36,12 +36,12 @@ dindex = list(data["DANGERINDEX"])
 map = folium.Map(location=[53.860838, 27.443097], zoom_start=12, worldCopyJump=True, min_zoom=12)
 
 
-fg = folium.FeatureGroup(name="МестаForПобухать")
+fg = folium.FeatureGroup(name="Места культурного отдыха")
 for lt, ln, dc, di in zip(lat, lon, desc, dindex):
     iframe = folium.IFrame(html=html % dc, width=310, height=413)
     fg.add_child(folium.CircleMarker(location=[lt, ln], radius=8, popup=folium.Popup(iframe), fill_color=index_of_danger(di), color=colors[3], fill=True, fill_opacity=0.7))
 
-fgv = folium.FeatureGroup(name="Мусора")
+fgv = folium.FeatureGroup(name="Стражи галактики")
 fgv.add_child(folium.GeoJson(data=open('test.json', 'r', encoding='utf-8-sig').read(), style_function=lambda x: {'fillColor': '#FF0000', 'color': '#FF0000'}))
 
 folium.TileLayer('cartodbdark_matter', name='Темная тема').add_to(map)
